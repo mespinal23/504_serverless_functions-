@@ -83,7 +83,7 @@ A measurement of creatinine in your blood or urine helps your healthcare profess
 
 [Test/Run Output](azure/Test:Run_Output.png)
 
-[Colab-Abnormal Range](azure/Abnormal.png)
+[Colab-Abnormal Range](azure/Abnormal_Range.png)
 
 [Colab-Normal Range](azure/Normal_Range.png)
 
