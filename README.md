@@ -45,8 +45,19 @@ A measurement of creatinine in your blood or urine helps your healthcare profess
 ### Step 1: Go To Function App
 ### Step 2: Choose Hosting Plan
   - Consumption- does not encur cost
-### Step 3:
-### Step 4:
+### Step 3: Configuartion
+  - Resource Group: 504
+  - Function App Name: creatinine-values
+  - Runtime Stack: Python 3.12(latest version available)
+  - Region: West US 3
+### Step 4: Click Review and Create
+### Step 5: Go To Resource
+### Steps 6: Create Function
+  - v2 Programming Model
+  - HTTP Trigger
+  - Function Name
+      - creatinine_levels
+### Step 7: Create
 
 # Tutorial 
 ### GCP
