@@ -54,13 +54,32 @@ A measurement of creatinine in your blood or urine helps your healthcare profess
 ### Azure
 **Recording:** [Watch on Loom](enter URL)
 
-# GCP Screenshots showing functionality that have your custom URLs, along with outputs
-[GCP-URL](gcp/URL.png)
+# GCP Screenshots
+[URL](gcp/URL.png)
 
-# Public endpoint URLs (+ notes on auth: unauthenticated vs key‑based)
+[Endpoint](gcp/Live_Endpoint.png)
 
-- Example `requests` invocations that **work as shown** in your video
-  
+[Logs](gcp/Logs.png)
+
+[Source Function Code](gcp/Source_Function_Code.png)
+
+[Colab-Abnormal Range](gcp/Abnormal.png)
+
+[Colab-Normal Range](gcp/Normal.png)
+
+# Azure Screenshots
+[URL](gcp/URL.png)
+
+[Endpoint](azure/Live_Endpoint.png)
+
+[Logs](azure/Logs.png)
+
+[Source Function Code](azure/Source_Function_Code.png)
+
+[Colab-Abnormal Range](azure/Abnormal.png)
+
+[Colab-Normal Range](azure/Normal.png)
+
 # Comparison Between GCP & Azure 
 I found GCP to be easier to deploy a basic HTTP service. It was fast and didn’t ask me a bunch of confusing setup questions. It handles most of the setup for you and gives you a working URL fast. Azure can feel overwhelming at first because of all the extra setup steps and terminology. Azure seems more professional, but also more complicated if you're just trying to learn. I actually got something working on GCP in under 10 minutes, but Azure took longer because I had to figure out what all the parts meant.
 
