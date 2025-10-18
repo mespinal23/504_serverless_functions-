@@ -55,7 +55,7 @@ A measurement of creatinine in your blood or urine helps your healthcare profess
 **Recording:** [Watch on Loom](enter URL)
 
 # GCP Screenshots showing functionality that have your custom URLs, along with outputs
-[GCP Create](images/gcp_create.png)- URL and outputs
+[GCP-URL](gcp/URL.png)
 
 # Public endpoint URLs (+ notes on auth: unauthenticated vs key‑based)
 
