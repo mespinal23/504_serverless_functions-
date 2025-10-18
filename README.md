@@ -1,5 +1,5 @@
 # 504_serverless_functions-
-Implementation HTTP Serverless Function
+Implementation of HTTP Serverless Function
 
 # Lab Rules
 A creatinine test is a measure of how well the kidneys are doing their job of filtering waste from the blood.
@@ -16,23 +16,46 @@ A measurement of creatinine in your blood or urine helps your healthcare profess
 
 <img src="https://cms-img.coverfox.com/Normal-Creatinine-Level-Ranges.jpeg" alt="Creatinine Level Chart" width="400"/>
 
-## 📚 Citation
-
-> Mayo Foundation for Medical Education and Research. (2025, June 12). *Creatinine test*. Mayo Clinic.  
-> https://www.mayoclinic.org/tests-procedures/creatinine-test/about/pac-20384646
-
-> Shamshuddin, S. (2025, September 17). *What Are the Normal Creatinine Level Ranges? A Complete Guide*. Coverfox.  
-> https://www.coverfox.com/health-insurance/articles/normal-creatinine-levels/
-
 # Cloud Environment
 - Google Cloud Platform
-  - Region: Belgium
+  - Region: europe-west1 (Belgium)
 - Microsoft Azure
   - Region: West US 3
+- Colab
+  - Used to run Python code
 
-# Deployment commands or steps you executed
+# Deployment Commands
+## GCP
+### Step 1: Go To Cloud Run
+### Step 2: Click Deploy Container
+### Step 3: Choose Deployment Method:
+  - Click Function
+    - "Use an inline editor to create a function"
+    - Pick the language/runtime (Python 3.13)
+### Step 4: Set Service Settings
+  - Service name : creatinine-value
+  - Region: europe-west1 (Belgium)
+  - Authentification: "Allow Public Access" if you want a public URL anyone can access
+  - Auto Scaling: Maximum instance "1"
+### Step 5: Create
+- Google will build and deploy your code
+- After a minute or so, you’ll get a live URL to your deployed service!
 
-# Screenshots showing functionality that have your custom URLs, along with outputs
+## Azure
+### Step 1:
+### Step 2:
+### Step 3:
+### Step 4:
+
+# Tutorial 
+### GCP
+**Recording:** [Watch on Loom](enter URL)
+
+### Azure
+**Recording:** [Watch on Loom](enter URL)
+
+# GCP Screenshots showing functionality that have your custom URLs, along with outputs
+[GCP Create](images/gcp_create.png)- URL and outputs
 
 # Public endpoint URLs (+ notes on auth: unauthenticated vs key‑based)
 
@@ -40,21 +63,20 @@ A measurement of creatinine in your blood or urine helps your healthcare profess
   
 # Comparison Between GCP & Azure 
 I found GCP to be easier to deploy a basic HTTP service. It was fast and didn’t ask me a bunch of confusing setup questions. It handles most of the setup for you and gives you a working URL fast. Azure can feel overwhelming at first because of all the extra setup steps and terminology. Azure seems more professional, but also more complicated if you're just trying to learn. I actually got something working on GCP in under 10 minutes, but Azure took longer because I had to figure out what all the parts meant.
-  
-### 3) Deliverables  
-    - **Publicly accessible endpoint URLs** for each deployed function (paste into the README).  
-    - **Recording (Zoom or Loom)** showing:
-        - A quick code tour.
-        - At least one **live GET/POST request** using python `requests` in either a notebook or script file, and the **JSON response**.
-        - Where logs/monitoring appear in each cloud.
+
+## 📚 Citations
+
+> Mayo Foundation for Medical Education and Research. (2025, June 12). *Creatinine test*. Mayo Clinic.  
+> https://www.mayoclinic.org/tests-procedures/creatinine-test/about/pac-20384646
+
+> Shamshuddin, S. (2025, September 17). *What Are the Normal Creatinine Level Ranges? A Complete Guide*. Coverfox.  
+> https://www.coverfox.com/health-insurance/articles/normal-creatinine-levels/
+
 
 ### Recording Requirements (2–4 minutes)
 - Brief intro (name, which two clouds you chose).
+- A quick Code Tour
 - Show your repository and where the cloud‑specific code lives.
 - Show the live endpoint(s) and execute a POST request with two examples (one normal, one abnormal).
 - Show where to find **logs** or **monitoring** in each cloud’s portal.
 - Mention any gotchas (permissions, runtime version, cold starts).
-
-Upload the recording and place a **shareable link** in your README.
-
-
