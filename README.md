@@ -49,7 +49,7 @@ A measurement of creatinine in your blood or urine helps your healthcare profess
 
 # Tutorial 
 ### GCP
-**Recording:** [Watch on Loom](enter URL)
+**Recording:** [Watch on Loom](https://www.loom.com/share/6d115989ca4848798dafc7fd8ed8f2b9?sid=c2155c02-f3d5-4c87-bfc3-8ef504da48d5)
 
 ### Azure
 **Recording:** [Watch on Loom](enter URL)
@@ -71,12 +71,3 @@ I found GCP to be easier to deploy a basic HTTP service. It was fast and didn’
 
 > Shamshuddin, S. (2025, September 17). *What Are the Normal Creatinine Level Ranges? A Complete Guide*. Coverfox.  
 > https://www.coverfox.com/health-insurance/articles/normal-creatinine-levels/
-
-
-### Recording Requirements (2–4 minutes)
-- Brief intro (name, which two clouds you chose).
-- A quick Code Tour
-- Show your repository and where the cloud‑specific code lives.
-- Show the live endpoint(s) and execute a POST request with two examples (one normal, one abnormal).
-- Show where to find **logs** or **monitoring** in each cloud’s portal.
-- Mention any gotchas (permissions, runtime version, cold starts).
