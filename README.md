@@ -75,7 +75,7 @@ A measurement of creatinine in your blood or urine helps your healthcare profess
 
 [URL Link](https://creatinine-values-ehf2hfazgmeueagn.westus3-01.azurewebsites.net/api/creatinine_levels?)
 
-[Endpoint](azure/Live_Endpoint.png)
+[Endpoint](azure/Endpoint_Live.png)
 
 [Logs](azure/Logs_Source_Function_Code.png)
 
