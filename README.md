@@ -2,7 +2,7 @@
 Implementation of HTTP Serverless Function
 
 # Lab Rules
-A creatinine test is a measure of how well the kidneys are doing their job of filtering waste from the blood.
+A **creatinine test** is a measure of how well the kidneys are doing their job of filtering waste from the blood.
 Creatinine is a chemical compound left over from energy-making processes in muscles. Healthy kidneys filter creatinine out of the blood. Creatinine exits the body as a waste product in urine.
 A measurement of creatinine in your blood or urine helps your healthcare professional find out how well your kidneys are working.
 
@@ -42,8 +42,9 @@ A measurement of creatinine in your blood or urine helps your healthcare profess
 - After a minute or so, you’ll get a live URL to your deployed service!
 
 ## Azure
-### Step 1:
-### Step 2:
+### Step 1: Go To Function App
+### Step 2: Choose Hosting Plan
+  - Consumption- does not encur cost
 ### Step 3:
 ### Step 4:
 
@@ -52,7 +53,7 @@ A measurement of creatinine in your blood or urine helps your healthcare profess
 **Recording:** [Watch on Loom](https://www.loom.com/share/6d115989ca4848798dafc7fd8ed8f2b9?sid=c2155c02-f3d5-4c87-bfc3-8ef504da48d5)
 
 ### Azure
-**Recording:** [Watch on Loom](enter URL)
+**Recording:** [Watch on Loom](https://www.loom.com/share/572edcf9c34a4f9192a18ba4f4016b87?sid=4f48a1eb-a3cb-43b2-b5f5-7e7cfed75608)
 
 # GCP Screenshots
 [URL](gcp/URL.png)
@@ -70,7 +71,9 @@ A measurement of creatinine in your blood or urine helps your healthcare profess
 [Colab-Normal Range](gcp/Normal.png)
 
 # Azure Screenshots
-[URL](gcp/URL.png)
+[URL](azure/URL.png)
+
+[URL Link](https://creatinine-values-ehf2hfazgmeueagn.westus3-01.azurewebsites.net)
 
 [Endpoint](azure/Live_Endpoint.png)
 
